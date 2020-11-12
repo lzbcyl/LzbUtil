@@ -6,4 +6,8 @@
     <color name="by_footer_text_loading">#333333</color>
     <color name="by_skeleton_shimmer_color">#a2878787</color>
     <color name="by_skeleton_light_transparent">#16000000</color>
+    <color name="colorTheme">#ffce3d3a</color>
+    <color name="colorWhite">#ffffffff</color>
+    <!--tab标签栏文字的颜色-->
+    <color name="colorTabText">#585858</color>
 </resources>

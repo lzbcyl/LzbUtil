@@ -14,10 +14,7 @@ import java.util.List;
 
 
 /**
- * Can be used for basic RecyclerViewAdapter or binding ByRecyclerView use.
  *
- * @author jingbin
- * link to https://github.com/youlookwhat/ByRecyclerView
  */
 public abstract class BaseByRecyclerViewAdapter<T, K extends BaseByViewHolder> extends RecyclerView.Adapter<K> {
 
