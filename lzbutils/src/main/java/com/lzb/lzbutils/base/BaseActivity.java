@@ -24,13 +24,13 @@ public abstract class BaseActivity<T extends ViewDataBinding> extends AppCompatA
      *
      * @return
      */
-    abstract int initView();
+    public abstract int initView();
 
     /**
      * 初始化数据
      */
 
-    abstract void init();
+    public abstract void init();
 
 
 }
