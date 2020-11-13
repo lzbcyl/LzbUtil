@@ -62,4 +62,9 @@ dependencies {
     // import rx.Subscription;
     // api 'io.reactivex:rxandroid:1.2.1'
     api 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+
+    api 'androidx.multidex:multidex:2.0.1'
+
+    // add cookie
+    implementation files('libs/commons-lang-2.6.jar')
 }
