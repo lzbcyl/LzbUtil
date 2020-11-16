@@ -1,4 +1,4 @@
-package com.lzb.utils;
+package com.lzb.utils.http;
 
 import com.lzb.lzbutils.bean.BaseResult;
 

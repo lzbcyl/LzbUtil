@@ -1,19 +1,25 @@
 package com.lzb.utils;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
 import android.util.Log;
 
+import com.lzb.lzbutils.base.BaseLoadActivity;
 import com.lzb.lzbutils.http.HttpUtils;
+import com.lzb.utils.databinding.ActivityMainBinding;
+import com.lzb.utils.http.HttpApi;
+import com.lzb.utils.viewmodel.MainViewModel;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseLoadActivity<MainViewModel, ActivityMainBinding> {
+
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        testHttp();
+    public int initView() {
+        return R.layout.activity_main;
+    }
+
+    @Override
+    public void init() {
+
     }
 
     // HttpUtils 用法
