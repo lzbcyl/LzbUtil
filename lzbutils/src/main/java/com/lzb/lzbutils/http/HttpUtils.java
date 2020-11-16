@@ -64,7 +64,7 @@ public class HttpUtils {
     }
 
     public static <T> void subscribe(Observable<T> t, Consumer<T> success, Consumer<? super Throwable> onError) {
-        t.subscribeOn(Schedulers.io()).subscribeOn(AndroidSchedulers.mainThread()).subscribe(success, onError);
+        t.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(success, onError);
     }
 
 

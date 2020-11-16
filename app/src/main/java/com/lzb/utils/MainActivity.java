@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         testHttp();
     }
 
-    // HttpClientUtils 用法
+    // HttpUtils 用法
     private void testHttp() {
         //记得初始化
         HttpUtils.getInstance().init(this);
